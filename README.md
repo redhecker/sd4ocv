@@ -4,14 +4,18 @@ deploy stable diffusion with opencv
 ### install dependency
 ```
 pip install opencv-python
-pip install numpy
+pip install numpy torch
 pip install transformers
 ```
 
 ### run demo
+download the model at google drive: [website](https://drive.google.com/file/d/1F4ZFDPfJV4m4FhSKc8jC9YY3f7ksQDGp/view?usp=sharing)
 ```
 python demo.py
 ```
+
+### co-authors
+[YuxuanMA](https://github.com/TrendMYX), [JunzheGONG](https://github.com/Gongjunzhe12210401)
 
 ### reference
 ```

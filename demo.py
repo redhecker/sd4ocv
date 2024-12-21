@@ -1,7 +1,7 @@
 from cvsd import SD
 import cv2
 
-modelPath = 'tindsd'
+modelPath = 'tinysd'
 sd = SD(modelPath)
 img = sd.infer("sailing ship")
 
